@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Javascript Functions</title>
+    </head>
+    <body>
+        <script language="JavaScript">
+            document.write("This text has been added using JavaScript");
+            document.write("<h4>This is text added by JavaScript inside the fourth heading tag. Note: JavaScript can add text inside any tag using document + . + write + ()</h4>");
+
+            window.confirm("You have come to the javascript-inside-html-doc wepage");
+            window.alert("Hi!");
+
+            var result;
+            var n1prompt = prompt("Enter first number");
+            var n2prompt = prompt("Enter second number");
+
+            var n1 = parseInt(n1prompt);
+            var n2 = parseInt(n2prompt);
+
+            document.write(n1 + " + " + n2 + " = ");
+            result = n1 + n2;
+            document.write(result);
+
+            document.write("<br>" + n1 + " - " + n2 + " = ");
+            result = n1 - n2;
+            document.write(result);
+
+            document.write("<br>" + n1 + " * " + n2 + " = ");
+            result = n1 * n2;
+            document.write(result);
+
+            document.write("<br>" + n1 + " / " + n2 + " = ");
+            nonRoundedResult = n1 / n2;
+            result = Math.floor(nonRoundedResult);
+            document.write(result);
+
+            document.write("<br>" + n1 + " % " + n2 + " = ");
+            result = n1 % n2;
+            document.write(result);
+        </script>
+    </body>
+</html>

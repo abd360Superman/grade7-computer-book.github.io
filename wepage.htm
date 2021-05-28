@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+    <body text="Blue" bgcolor="Green" leftmargin="60" topmargin="50">
+        <p id="top"> My name is <strike> not </strike> Darsh. Note: not has been strike throughed. </p>
+        <b><u><i> Let's work on HTML. Note: All of bold, itaclic and underline are used overhere. </i></u></b>
+
+        <h1> First Level Heading </h1>
+        <h2> Second Level Heading </h2>
+        <h3> Third Level Heading </h3>
+        <h4> Fourth Level Heading </h4>
+        <h5> Fifth Level Heading </h5>
+        <h6> Sixth Level Heading </h6>
+
+        <p align="left"> Left Alignment Text </p>
+        <p align="center"> Center Alignment Text </p>
+        <p align="right"> Right Alignment Text </p>
+
+        <p> This is a <br> break tag </p>
+        <nobr> The No Break Tag is the opposite of the Break Tag </nobr>
+
+        <br>
+
+        <i> e = mc<sup>2</sup></i>
+        <p> Water = <i>H<sub>2</sub>O</i></p>
+
+        <center>
+            <p> This text is under the HTML Center Tag </p>
+        </center>
+
+        <hr size="25" width="85%">
+
+        <img src="https://images.unsplash.com/photo-1571192776145-9f563c1df686?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FyZGVufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" height="50%" width="30%" align="right" border="3" alt="SORRY IMAGE CANNOT BE DISPLAYED">
+        <p> This is the image of a garden. If it does not load the alt text will be displayed</p>
+
+        <h3> Let's look at a few styles of unordered lists </h3>
+
+        <h5> My hobbies </h5> 
+        <ul type="disc">
+            <li> Cricket </li>
+            <li> Reading </li>
+        </ul>
+
+        <h5> My hobbies </h5>
+        <ul type="circle">
+            <li> Cricket </li>
+            <li> Reading </li>
+        </ul>
+
+        <h5> My hobbies </h5>
+        <ul type="square">
+            <li> Cricket </li>
+            <li> Reading </li>
+        </ul>
+
+        <h3> Let's look at a few styles of ordered lists </h3>
+
+        <h5> My hobbies </h5>
+        <ol type="A" start="3">
+            <li> Cricket </li>
+            <li> Reading </li>
+        </ol>
+
+        <h5> My hobbies </h5>
+        <ol type="i" start="3">
+            <li> Cricket </li>
+            <li> Reading </li>
+        </ol>
+
+        <h5> My hobbies </h5>
+        <ol type="I" start="2">
+            <li> Cricket </li>
+            <li> Reading </li>
+        </ol>
+
+        <h5> My hobbies </h5>
+        <ol>
+            <li> Cricket </li>
+            <li> Reading </li>
+        </ol>
+
+        <h5> Description Lists </h5>
+        <dl>
+            <dt> Programming
+                <dd> programming is when we train the computer in it's own language to do specific actions 
+            <dt> HTML
+                <dd> A type of programming language
+        </dl>
+
+        <h4> Example of nested lists </h4>
+
+        <ol>
+            <b><u> Subjects </b></u>
+
+            <li> Languages </li>
+            <ul>
+                <li> English </li>
+                <li> Spanish </li>
+                <li> French </li>
+            </ul>
+
+            <li> Mathematics </li>
+            <li> Computers </li>
+
+            <li> Science </li>
+            <ul>
+                <li> Physics </li>
+                <li> Chemistry </li>
+                <li> Biology </li>
+            </ul>
+
+            <li> Humanities </li>
+            <ul>
+                <li> Economics </li>
+                <li> History </li>
+                <li> Geography </li>
+            </ul>
+        </ol>
+
+        <caption> My Table </caption>
+        <table height="50%" width="50%" align="center" border="1" bordercolor="grey" cellpadding="10" cellspacing="10">
+            <tr>
+                <th colspan="3">Player Details</th>
+                <th rowspan="3">Batting Stats</th>
+                <th>Runs</th>
+                <th>Average</th>
+                <th>Strike-rate</th>
+                <th>Highest Score</th>
+            </tr>
+
+            <tr>
+                <td> AB de Villiers </td>
+                <td> Protear </td>
+                <td> Wicket-keeper </td>
+                <td> 26452 </td>
+                <td> 62.47 </td>
+                <td> 130.12 </td>
+                <td> 176 </td>
+            </tr>
+
+            <tr>
+                <td> Kane Williamson </td>
+                <td> Kiwi </td>
+                <td> All-rounder </td>
+                <td> 19876 </td>
+                <td> 57.84 </td>
+                <td> 97.23 </td>
+                <td> 148 </td>
+            </tr>
+        </table>
+
+        <font color="#993300" size="5">This is text with chocolat brown color and font size 5</font>
+
+        <h4>HTML Form</h4>
+        <form action="mailto:darshchoudhary171@gmail.com" method="post" name="Form">
+            <label>Name</label>
+            <input type="text" placeholder="Name" id="name"><br>
+
+            <label>Favourite Video Game: </label>
+            <br>&nbsp;
+            <input type="radio" id="clasRoyale">Clash Royale
+            <br>&nbsp;
+            <input type="radio" id="wcc2">World Cricket Championship 2
+            <br>&nbsp;
+            <input type="radio" id="bradman">Don Bradman Cricket 17
+
+            <br>Birth Date
+            <input type="date" id="bday">
+
+            <br>Email
+            <input type="email" id="email">
+
+            <br>Favourite Colour
+            <input type="color" id="color"><br>
+
+            <br>Birth Place
+            <select id="birthPlace">
+                <option value="India" selected>India</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <br>Any other comments?
+            <textarea cols="500" rows="10" id="comments">Yes - </textarea>
+
+            <input type="submit" value="Submit">
+            &nbsp;
+            <input type="reset" value="Reset">
+        </form>
+
+        <h5> Want to make a new internet search? Go to <a href="https://www.google.com> https://www.google.com"</a> Note: This is an external link</h5>
+        <h5> Want to go back to the top? <a href="#top">Click Here!</a>Note: This is an internal link</h5>
+    </body>
+</html>
